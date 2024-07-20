@@ -1,2 +1,113 @@
-hello
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>兪のポートフォリオ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #e9e9e9;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>兪のポートフォリオ</h1>
+        </div>
+    </header>
 
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>兪燦浩と申します。2024年3月1日からクラウドエンジニアを目指して勉強を始め、2024年7月7日にAWS Certified Solutions Architect – Associateの資格を取りました。今は実務に関する勉強中です。</p>
+        </section>
+
+        <section id="skills">
+            <h2>資格証のリンク</h2>
+            <p>https://www.credly.com/badges/8e5c3f6a-04e0-4f0b-b31c-01ce69c59d28/public_url</p>
+        </section>
+
+        <section id="projects">
+            <h2>プロジェクト</h2>
+            <div class="project">
+                <h3>[Javaで作った数字野球ゲーム(韓国語)]</h3>
+                <p>[数字野球ゲームとは、二人で考えた数字を当てるゲームです。例えば、私が123を考えた時、相手が421を決めたら2は場所まであってるので1ストライク、1は場所が違うので1ボール結果は1ストライク、1ボールです。 - Javaだけで作られたプロジェクトです。一人で、もしくは二人で楽しめるゲームを作りました。]</p>
+            </div>
+            <div class="project">
+                <h3>[LATTE STATION]</h3>
+                <p>[本、CD,ゲームを販売するサイト - 사용된 클라우드 기술, 역할, 결과 등]</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>자격증</h2>
+            <ul>
+                <li>[관련 클라우드 자격증 1]</li>
+                <li>[관련 클라우드 자격증 2]</li>
+                <!-- 필요에 따라 더 추가 -->
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>경력</h2>
+            <div class="job">
+                <h3>[회사명] - [직위]</h3>
+                <p>[근무 기간]</p>
+                <p>[주요 업무 및 성과]</p>
+            </div>
+            <!-- 필요에 따라 더 추가 -->
+        </section>
+
+        <section id="education">
+            <h2>학력</h2>
+            <p>[학교명] - [전공], [졸업연도]</p>
+        </section>
+
+        <section id="contact">
+            <h2>연락처</h2>
+            <p>Email: [your.email@example.com]</p>
+            <p>LinkedIn: [LinkedIn 프로필 링크]</p>
+            <p>GitHub: [GitHub 프로필 링크]</p>
+        </section>
+    </div>
+</body>
+</html>
