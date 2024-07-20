@@ -1,3 +1,3 @@
 # yucha-resume-repository
 
-## Git Clone Success
+## Git Clone Success clear
